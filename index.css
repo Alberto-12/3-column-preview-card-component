@@ -6,6 +6,7 @@
   --Very-dark-cyan: hsl(179, 100%, 13%);
   --Transparent-white: hsla(0, 0%, 100%, 0.75);
   --Very-light-gray: hsl(0, 0%, 95%);
+  --White: hsl(0,0%,100%);
 }
 
 body {
@@ -41,7 +42,6 @@ body {
 .sedans-heading {
   width: 101px;
   height: 48px;
-  margin-top: 35px;
   margin-left: 49px;
   font-family: "Big Shoulders Display";
   font-style: normal;
@@ -54,34 +54,38 @@ body {
 .sedan-p {
   width: 231px;
   height: 125px;
-  margin-top: 25px;
   margin-left: 48.5px;
+  padding-bottom: 18px;
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #ffffff;
-  mix-blend-mode: normal;
+  color: var(--White);
   opacity: 0.75;
+  
 }
 
 .sedan-button {
   text-align: center;
-  width: 146px;
-  height: 48px;
+  padding: 14px 30px 14px 30px ;
+  text-decoration: none;
   border-radius: 25px;
   background: var(--Very-light-gray);
   border: none;
-  margin-top: 25px;
   margin-left: 49px;
   color: var(--Bright-orange);
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .sedan-button:hover {
   cursor: pointer;
-  border: solid white;
-  color: white;
+  border: solid var(--White);
+  color: var(--White);
   background-color: var(--Bright-orange);
 }
 
@@ -100,7 +104,6 @@ body {
 .suvs-heading {
   width: 66px;
   height: 48px;
-  margin-top: 35px;
   margin-left: 49px;
   font-family: "Big Shoulders Display";
   font-style: normal;
@@ -113,34 +116,38 @@ body {
 .suvs-p {
   width: 231px;
   height: 125px;
-  margin-top: 25px;
+  padding-bottom: 18px;
   margin-left: 48.5px;
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #ffffff;
-  mix-blend-mode: normal;
+  color: var(--White);
   opacity: 0.75;
+
 }
 
 .suvs-button {
   text-align: center;
-  width: 146px;
-  height: 48px;
+  padding: 14px 30px 14px 30px ;
+  text-decoration: none;
   border-radius: 25px;
   background: var(--Very-light-gray);
   border: none;
-  margin-top: 25px;
   margin-left: 49px;
   color: var(--Dark-cyan);
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .suvs-button:hover {
   cursor: pointer;
-  border: solid white;
-  color: white;
+  border: solid var(--White);
+  color: var(--White);
   background-color: var(--Dark-cyan);
 }
 
@@ -160,7 +167,6 @@ body {
 .luxury-heading {
   width: 95px;
   height: 48px;
-  margin-top: 35px;
   margin-left: 48px;
   font-family: "Big Shoulders Display";
   font-style: normal;
@@ -173,45 +179,53 @@ body {
 .luxury-p {
   width: 231px;
   height: 125px;
-  margin-top: 25px;
   margin-left: 47.5px;
+  padding-bottom: 18px;
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #ffffff;
-  mix-blend-mode: normal;
+  color: var(--White);
   opacity: 0.75;
 }
 
 .luxury-button {
   text-align: center;
-  width: 146px;
-  height: 48px;
+  padding: 14px 30px 14px 30px ;
+  text-decoration: none;
   border-radius: 25px;
   background: var(--Very-light-gray);
   border: none;
-  margin-top: 25px;
-  margin-left: 49px;
+  margin-left: 45px;
   color: var(--Very-dark-cyan);
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .luxury-button:hover {
   cursor: pointer;
-  border: solid white;
-  color: white;
+  border: solid var(--White);
+  color: var(--White);
   background-color: var(--Very-dark-cyan);
 }
 
 @media (min-width: 576px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
   .container {
     display: flex;
     flex-direction: row;
     width: 920px;
     height: 500px;
-    margin-top: 171px; 
   }
 
   .sedans {
@@ -228,5 +242,35 @@ body {
     width: 307px;
     height: 500px;
     border-top-right-radius: 8px;
+  }
+
+  .sedan-p {
+      width: 212px;
+      padding-bottom: 85px;
+  }
+
+  .suvs-p {
+    width: 212px;
+    padding-bottom: 85px;
+  }
+
+  .luxury-p {
+    width: 212px;
+    padding-bottom: 85px;
+  }
+
+  .sedans-heading {
+      width: 99px;
+      height: 48px;
+  }
+
+  .suvs-heading {
+    width: 99px;
+    height: 48px;
+  }
+
+  .luxury-heading {
+    width: 99px;
+    height: 48px;
   }
 }
