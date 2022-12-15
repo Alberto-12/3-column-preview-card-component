@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-xkynoSFXFQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://alberto-12.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -44,10 +43,10 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I learned how to work with Flexbox.
+The main focus in this challenge was to test  shift between the layouts to build responsive projects. Here's the snippet of a CSS code where I used Flexbox which I'm really proud of:
 
 ```css
-.proud-of-this-css {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,10 +68,10 @@ I'm looking forward to improve on working with Flexbox.
 
 ## Author
 
-- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/Alberto-12)
 
 ## Acknowledgments
 
-I'm thankfull for my mentor Treasure kabareebe that guided me through the process.
+I'm thankfull for my mentor [Treasure kabareebe](https://github.com/trekab) that guided me through the process.
 
 
